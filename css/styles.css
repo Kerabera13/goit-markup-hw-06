@@ -217,6 +217,11 @@ img {
   text-transform: uppercase;
   color: var(--additional-color);
 }
+.form-button-div {
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+}
 .hero-button {
   height: 50px;
   min-width: 200px;
@@ -903,12 +908,20 @@ address {
 .modal-condition {
   color: var(--accent-color);
   text-decoration: underline;
+
+  margin-right: 2px;
 }
 
 .form-button {
   width: 200px;
   height: 50px;
 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -920,7 +933,7 @@ address {
   border-radius: 4px;
   cursor: pointer;
   transition-property: fill;
-  transition-timing-function: 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-buttom:focus {
