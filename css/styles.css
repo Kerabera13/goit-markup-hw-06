@@ -621,14 +621,14 @@ address {
   letter-spacing: 0.06em;
   color: #ffffff;
 
-  transition-property: fill;
+  transition-property: background-color, box-shadow, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .futter-buttom:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  c: 4px;
 }
 
 .footer-button-icon {
