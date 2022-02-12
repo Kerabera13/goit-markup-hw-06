@@ -588,7 +588,16 @@ address {
   border-radius: 4px;
   background-color: var(--backfound-footer-color);
   outline: none;
+
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
 }
+.footer-email:focus {
+  border-color: var(--accent-color);
+}
+
 .footer-button {
   min-width: 200px;
   height: 50px;
@@ -611,7 +620,17 @@ address {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.futter-buttom:focus {
+  background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
 .footer-button-icon {
   margin-left: 10px;
 }
@@ -928,7 +947,7 @@ address {
 
   border: transparent;
   color: var(--additional-color);
-  background: #188ce8;
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
