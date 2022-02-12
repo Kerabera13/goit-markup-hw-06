@@ -607,7 +607,7 @@ address {
   padding-left: 29px;
   padding-right: 28px;
   border: transparent;
-  background: #2196f3;
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -619,7 +619,7 @@ address {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--additional-color);
 
   transition-property: background-color, box-shadow, box-shadow;
   transition-duration: 250ms;
